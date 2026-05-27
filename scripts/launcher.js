@@ -2,7 +2,7 @@ addEventListener('load', function () {
 	var canvas = document.getElementById('gl');
 
 	var viewer = new ModelViewer({
-		file: 'assets/Item/Objectcomponents/weapon/axe_1h_blacksmithing_d_01.m2',
+		file: 'assets/Model.m2',
 		glCanvas: canvas,
 		playBtn: document.getElementById('play')
 	});
